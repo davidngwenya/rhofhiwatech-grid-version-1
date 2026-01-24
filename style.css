@@ -1,0 +1,60 @@
+*{//background-color: green;}
+
+#page-structure-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+}
+
+#navigation #nav-ul {
+    display: flex;
+    grid-column: span 2;
+    gap: 10px;
+    background-color: #12ebf3;
+}
+
+#navigation li {
+      list-style: none;
+    }
+
+.grid-view{
+    background-color: #12ebf3;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+}
+
+#about-us{
+    font-weight: 200px;
+    widt:200px;
+    height: 200px;
+    //background-color: #0ccdd2;
+}
+
+.link-headers{
+    text-align: center;
+}
+
+#services{
+    //background-color: #d3effd;
+}
+
+#services #installation {
+  //list-style-image: url('./images/image1.png');
+  border-left: 400px
+}
+
+img{
+    border-left: ;
+}
+
+#site-footer{
+    grid-column: span 2;
+    background-color: #1e1e1e;
+    text-align: center;
+    color: #ffffff;
+}
+
